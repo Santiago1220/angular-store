@@ -1,0 +1,32 @@
+h1{
+  padding: 36px 30px 0 16px;
+  font-size: 32px;
+  color: white;
+}
+.container{
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+  .cont-details{
+    flex: 2;
+    margin: 0 10px 0 0;
+  }
+  .mat-card{
+    flex: 2;
+  }
+  .form__element{
+    width: 100%;
+    margin: 0 10px 10px 0;
+  }
+  .shipping{
+    display: flex;
+  }
+  .container__button{
+    display: flex;
+    justify-content: flex-end;
+  }
+  .mat-radio-button{
+    margin: 0 15px 0 0;
+  }
+}
+

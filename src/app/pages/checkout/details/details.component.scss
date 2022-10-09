@@ -1,0 +1,21 @@
+.container-table{
+  width: 100%;
+  color: white;
+  table{
+    width: 100%;
+    border-collapse: collapse;
+    thead{
+      th{
+        font-weight: 500;
+        text-align: left;
+        border-bottom: 1px solid #c1c1c1;
+        padding: 10px;
+      }
+    }
+    tbody{
+      td{
+        padding: 10px;
+      }
+    }
+  }
+}

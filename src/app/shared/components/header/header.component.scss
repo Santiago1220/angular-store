@@ -1,0 +1,27 @@
+mat-toolbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+  span{
+    display: flex;
+    img{
+      width: 36px;
+      margin: 0 10px 0 0;
+    }
+  }
+}
+
+.mouseHover{
+  padding: 2px;
+  border-radius: 2px;
+  transition: all ease-in-out 0.3s;
+  &:hover{
+    cursor: pointer;
+    background: #444444;
+  }
+}
